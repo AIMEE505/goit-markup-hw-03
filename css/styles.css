@@ -39,7 +39,21 @@
 }
 
 .logofooter{
-    color: #f4f4f4fd;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+
+}
+
+.logofooter{
+    display: inline-block;
+    margin-bottom: 16px;
+    
 }
 
 .list{
@@ -182,18 +196,7 @@ body{
 
 
 
-.footer{
-    background-color: #2e2f42;
-}
 
-.p-footer{
-    line-height: 1.5;
-    color: #F4F4FD;
-    letter-spacing: 0.02em;
-}
-.sfour {
-    background-color: #FFFFFFFF;
-}
 
 .button-filter{cursor: pointer;
     background-color: #F4F4FD;
@@ -225,7 +228,20 @@ body{
 
 .footer .spanfooter{
     color: #F4F4FD;
+}
+.footer{
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
 
+.p-footer{
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+    max-width: 264px; 
+}
+.sfour {
+    background-color: #FFFFFFFF;
 }
 .listli{
     background-color: #ffffff;

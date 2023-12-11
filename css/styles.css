@@ -5,6 +5,19 @@
 
 }
 
+.header{
+    border-bottom: 1px solid #e7e9fc;
+
+}
+.container-nav{
+    display: flex;
+}
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .logo {font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -12,11 +25,13 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    padding: 25.5px;
+    margin-right: 76px;
 }
 
 .link{
     text-decoration: none;
+    padding: 24px 0;
+
 }
 
 .logo-span{
@@ -27,7 +42,11 @@
     color: #f4f4f4fd;
 }
 
-.list{list-style: none;
+.list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
 
 }
 
@@ -37,6 +56,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 .studio-link:hover {
     color: #404bbf; 
@@ -60,6 +80,9 @@
 
 .contact-list{
     font-style: normal;
+    gap: 40px;
+    
+
 }
 .mail{
     line-height: 1.5;

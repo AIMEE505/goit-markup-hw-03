@@ -12,6 +12,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    padding: 25.5px;
 }
 
 .link{
@@ -45,6 +46,18 @@
     color: #404bbf; 
 }
 
+
+.nav-meniu{
+    display: flex;
+    align-items: center;
+}
+
+.meniu-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
 .contact-list{
     font-style: normal;
 }
@@ -52,6 +65,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
    color: #434455;
+   margin: 24px, 40 px, 24px, 940px;
 }
 
 .mail:hover {

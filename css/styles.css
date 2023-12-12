@@ -11,6 +11,8 @@
 }
 .container-nav{
     display: flex;
+    justify-content: space-between;
+
 }
 .container{
     width: 1200px;
@@ -92,6 +94,7 @@ margin-bottom: 72px;
 .nav-meniu{
     display: flex;
     align-items: center;
+
 }
 
 .meniu-list {
@@ -167,7 +170,10 @@ margin-bottom: 72px;
     color: #2e2f42;
 
 }
-
+.filter{
+    display: flex;
+    gap: 24px;
+}
 
 .filter:hover {
     color: #404BBF;
@@ -214,6 +220,8 @@ body{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #4d5ae5;
+    padding: 12px 24px;
+
 }
 .button-filter:hover {
     color: #FFFFFFFF;

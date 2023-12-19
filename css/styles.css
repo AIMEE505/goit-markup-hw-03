@@ -193,6 +193,7 @@
 }
 
 .listli{
+    display: flex;
     background-color: #ffffff;
     width: calc((100% - 72px) / 4);
     width: 100%;
@@ -358,8 +359,9 @@ border-top: none;
 }
 
 .list-forte-points {
+    display: flex;
 gap: 24px;
-display: inline-flex;
+
 }
 
 .doing {
@@ -369,6 +371,10 @@ display: inline-flex;
 .doing-list{
     display: flex;
     gap: 24px;
+}
+
+.sii-title{
+    margin-bottom: 8px;
 }
 
 .item-doing-list{
